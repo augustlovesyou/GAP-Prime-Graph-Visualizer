@@ -6,7 +6,7 @@
 
 
 ## About The Project
-Prime graphs of Groups are currently being classfied and researched. This project effieciently computes these graphs for visualization.
+Prime graphs of Groups are currently being classfied and researched. This project effieciently computes these graphs (<1 sec) for visualization.
 
 ## Getting Started
 Download the primegraphs.g file in a UNIX directory
