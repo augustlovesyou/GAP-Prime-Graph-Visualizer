@@ -30,20 +30,20 @@ Run the following command to use. Replace "YOURGROUPCONSTRUCTOR() with any valid
 ## Examples
 Here are some common examples, and their outputs:
 `gap -b -c "G:= SymmetricGroup(5);" primegraphviz.g`
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/36957fda-0509-4999-a879-6ecb1233e188" />
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/21cc900b-188b-4000-bced-0e1e6e7a9182" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/36957fda-0509-4999-a879-6ecb1233e188" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/21cc900b-188b-4000-bced-0e1e6e7a9182" />
 
 `gap -b -c "G:= CyclicGroup(210);" primegraphviz.g`
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/b5db2f0f-864d-4207-acb0-2e24316696e8" />
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/986969bb-b02d-4fb7-96ff-ba270abd8f52" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/b5db2f0f-864d-4207-acb0-2e24316696e8" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/986969bb-b02d-4fb7-96ff-ba270abd8f52" />
 
 `gap -b -c "G:= DihedralGroup(198);" primegraphviz.g`
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/6707adc2-8758-46b3-9fb8-a6c14e4c527c" />
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/9b52b755-c62d-4170-b26b-ae4b502d2407" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/6707adc2-8758-46b3-9fb8-a6c14e4c527c" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/9b52b755-c62d-4170-b26b-ae4b502d2407" />
 
 `gap -b -c "G:= SmallGroup(210,5);" primegraphviz.g`
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/04585324-011b-4e5e-80ba-182b97dfddd0" />
-<img width="1862" height="1044" alt="image" src="https://github.com/user-attachments/assets/49f36b3f-878b-4b2e-9c6c-1f5b19a5fe8f" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/04585324-011b-4e5e-80ba-182b97dfddd0" />
+<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/49f36b3f-878b-4b2e-9c6c-1f5b19a5fe8f" />
 
 ## A Note on SmallGroups
 Note that since SmallGroups was able to classfiy all groups of order <2000 (except 1024), that means this project is able to draw the prime graphs for (almost) every small finite group. See the final example above and read more about the SmallGroup() constructor [here]([url](https://docs.gap-system.org/pkg/smallgrp/doc/chap1.html))
