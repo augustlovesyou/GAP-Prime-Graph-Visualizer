@@ -60,8 +60,10 @@ od;
 
 
 D:= Digraph(prime_divs,source,range);
+D:= MaximalAntiSymmetricSubdigraph(D);
 
-
-
-Splash(DotVertexLabelledDigraph(D));
+d:=DotVertexLabelledDigraph(D);
+d:=ReplacedString(d,"digraph","graph");
+d:=ReplacedString(d,"->","--");
+Splash(d);
 QUIT;
