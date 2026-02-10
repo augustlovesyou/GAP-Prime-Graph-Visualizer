@@ -1,6 +1,6 @@
 # GAP-Prime-Graph-Visualizer
 
- Computes and visualizes the [Prime Graph]([url](https://en.wikipedia.org/wiki/Prime_graph)) of any group representable in [GAP](https://en.wikipedia.org/wiki/Prime_graph)
+ Computes and visualizes the [Prime Graph](https://en.wikipedia.org/wiki/Prime_graph) of any group representable in [GAP](https://www.gap-system.org/)
 
  The prime graph of a group has a vertex for each prime number that divides the order (number of elements) of the given group, and an edge connecting each pair of prime numbers p  and q  for which there exists a group element with order pq .
 
@@ -24,7 +24,7 @@ Note that you need to compile the kernel for packages you install to GAP.
    `cd your_project`
 
 ## Usage
-Run the following command to use. Replace "YOURGROUPCONSTRUCTOR() with any valid Group Constructor shown [here]([url](https://docs.gap-system.org/doc/ref/chap50.html)). (Examples below too)" :
+Run the following command to use. Replace "YOURGROUPCONSTRUCTOR() with any valid Group Constructor shown [here](https://docs.gap-system.org/doc/ref/chap50.html). (Examples below too)" :
    `gap -b -c "G:= YOURGROUPCONSTRUCTOR();" primegraphviz.g`
 
 ## Examples
