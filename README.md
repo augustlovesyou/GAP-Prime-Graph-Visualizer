@@ -46,7 +46,7 @@ Here are some common examples, and their outputs:
 <img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/49f36b3f-878b-4b2e-9c6c-1f5b19a5fe8f" />
 
 ## A Note on SmallGroups
-Note that since SmallGroups was able to classfiy all groups of order <2000 (except 1024), that means this project is able to draw the prime graphs for (almost) every small finite group. See the final example above and read more about the SmallGroup() constructor [here]([url](https://docs.gap-system.org/pkg/smallgrp/doc/chap1.html))
+Note that since SmallGroups was able to classfiy all groups of order <2000 (except 1024), that means this project is able to draw the prime graphs for (almost) every small finite group. See the final example above and read more about the SmallGroup() constructor [here](https://docs.gap-system.org/pkg/smallgrp/doc/chap1.html))
 
 
 
